@@ -1,7 +1,8 @@
 # debugIt
-A no frills console debugger for Node inspired by [visionmedia/debug](https://github.com/visionmedia/debug).
 
-**Note:** *This module is only for command line debugging.*
+[![Build Status](https://travis-ci.org/arjunmehta/node-debugIt.svg?branch=master)](https://travis-ci.org/arjunmehta/node-debugIt)
+
+A no frills console debugger for Node inspired by [visionmedia/debug](https://github.com/visionmedia/debug).
 
 Use this module when you want to selectively choose when you want to enable logging to your console. This is a handy little tool for debugging works in progress, or to only show logs when running tests.
 
@@ -10,6 +11,8 @@ Heavily inspired by [visionmedia/debug](https://github.com/visionmedia/debug). B
 - **Works across exports within your project**
 - **Semi-Unique colors for different debug namespaces**
 - **An easy to use, simple interface**
+
+**Note:** *This module is only for command line debugging.*
 
 ## Installation
 ```bash

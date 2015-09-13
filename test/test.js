@@ -1,6 +1,7 @@
 var debugIt = require('../main');
 var test = require('tape').test;
 
+
 test('Module exported okay', function(t) {
     t.equal(typeof debugIt, 'object');
     t.end();
@@ -40,7 +41,6 @@ test('Exported Console.log not called before enable', function(t) {
     t.end();
 });
 
-
 test('Console.log called after enable', function(t) {
 
     var debugB;
@@ -62,7 +62,6 @@ test('Console.log called after enable', function(t) {
     debugB('Something', 123, 'Something else');
 });
 
-
 test('Console.log called with name after enable', function(t) {
 
     var debugC;
@@ -83,7 +82,6 @@ test('Console.log called with name after enable', function(t) {
     debugC = debugIt.add('This:Is:A:Name');
     debugC('Something', 123, 'Something else');
 });
-
 
 test('Exported Console.log called with name after enable', function(t) {
 

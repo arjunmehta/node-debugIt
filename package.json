@@ -1,0 +1,30 @@
+{
+    "name": "debugit",
+    "version": "1.0.0-beta.1",
+    "description": "A no frills console debugger for Node inspired by visionmedia/debug.",
+    "main": "main.js",
+    "scripts": {
+        "test": "tape ./test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arjunmehta/node-debugIt.git"
+    },
+    "keywords": [
+        "debug",
+        "debugit",
+        "terminal",
+        "cli",
+        "test"
+    ],
+    "author": "Arjun Mehta",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/arjunmehta/node-debugIt/issues"
+    },
+    "homepage": "https://github.com/arjunmehta/node-debugIt#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "tape": "~4.2.0"
+    }
+}

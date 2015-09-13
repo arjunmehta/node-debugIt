@@ -1,7 +1,7 @@
 {
     "name": "debugit",
-    "version": "1.0.0",
-    "description": "A no frills console debugger for Node inspired by visionmedia/debug.",
+    "version": "1.0.1",
+    "description": "A no frills console debugger for Node.",
     "main": "main.js",
     "scripts": {
         "test": "tape ./test/test.js"

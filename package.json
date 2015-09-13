@@ -1,6 +1,6 @@
 {
     "name": "debugit",
-    "version": "1.0.0-beta.1",
+    "version": "1.0.0",
     "description": "A no frills console debugger for Node inspired by visionmedia/debug.",
     "main": "main.js",
     "scripts": {

@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/arjunmehta/node-debugIt.svg?branch=master)](https://travis-ci.org/arjunmehta/node-debugIt)
 
-A no frills console debugger for Node inspired by [visionmedia/debug](https://github.com/visionmedia/debug).
+A no frills console debugger for Node.
 
 Use this module when you want to selectively choose when you want to enable logging to your console. This is a handy little tool for debugging works in progress, or to only show logs when running tests.
 
@@ -21,7 +21,7 @@ npm install --save debugit
 
 ## Basic Usage
 
-### Set Up Namespaces and Write to Them
+### Set Up Namespaces
 You can set up your debug logs using the `debugit.add(namespaceName)` method. They won't get printed to the console until debugIt is enabled globally.
 
 ```javascript
@@ -30,6 +30,7 @@ var debugSecondary = require('debugit').add('debugit:secondary')
 ```
 
 
+### Write to Your Namespaces
 Now you can write to these namespaces. Each namespace will be presented in a color based on its name, so you can tell them apart.
 
 ```javascript
@@ -50,7 +51,6 @@ var debugIt = require('debugit').enable()
 
 **Note:** *Currently there's no way to selectively choose which namespaces to turn on.*
 
-That's it!
 
 ## License
 The MIT License (MIT)
